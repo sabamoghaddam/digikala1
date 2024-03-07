@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: iran;
+}
+html,
+body {
+  direction: rtl;
+}
+@font-face {
+  font-family: iran;
+  src: url(../font/IRANYekanWeb-Medium.eot);
+  src: url(../font/IRANYekanWeb-Medium.ttf);
+  src: url(../font/IRANYekanWeb-Medium.woff);
+  src: url(../font/IRANYekanWeb-Medium.woff2);
+}
+:root {
+  --width: 100%;
+  --font--family: var(--font--family);
+}
+.wrapper {
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+.text_center_1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+.text_center_1 h2 {
+  font-weight: lighter;
+  font-family: var(--font-family);
+}

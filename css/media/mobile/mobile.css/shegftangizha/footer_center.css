@@ -1,0 +1,55 @@
+.footer_center_diji {
+    height: 227px;
+    width: 100%;
+    padding: 32px 0px 32px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    .accordian {
+      width: 70%;
+      height: 100%;
+      margin-left: 40px;
+
+      .accordion-im{  p {
+        font-size: smaller !important;
+        color: rgb(104, 104, 104) !important;
+      }
+    }
+    }
+    .accordian_center {
+      display: flex;
+      flex-flow: column wrap;
+      background: linear-gradient(
+        180deg,
+        hsla(0, 0%, 100%, 0) 1%,
+        rgb(245, 245, 245)
+      );
+      fill: rgb(255, 255, 255) 100%;
+      p {
+        margin-top: 7px;
+        font-size: smaller;
+        color: rgb(104, 104, 104);
+      }
+    }
+    .pic_diji {
+      width: 376px;
+      height: 108px;
+      display: flex;
+      flex-flow: row wrap;
+      margin-right: 37px;
+      .img_diji {
+        width: 100px;
+        height: 108px;
+        padding: 16px;
+        margin-right: 8px;
+        border: 1px ridge rgb(194, 194, 194);
+        border-radius: 9px;
+        display: flex;
+        justify-content: center;
+      }
+      img {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  }
+  

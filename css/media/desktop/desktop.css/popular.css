@@ -1,0 +1,45 @@
+.continer_popular {
+  height: 224px;
+  margin: 20px 106px 20px 106px;
+  .popular {
+    height: inherit;
+    padding: 25px 0px 25px 0px;
+    border-width: 1px;
+    border-color: #e0e0e2;
+    border-style: ridge;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 16px;
+    .text_popular {
+      height: 33.3%;
+      width: inherit;
+      display: flex;
+      justify-content: center;
+      h2 {
+        font-weight: lighter;
+        svg {
+          height: 20px !important;
+          margin-bottom: -4px;
+        }
+      }
+    }
+    .slider_popular {
+      height: 66.6%;
+      width: inherit;
+      margin-top: 15px;
+      .div___popular {
+        height: 100%;
+        border-color: #e0e0e2;
+        border-style: ridge;
+        border-width: 0px 0px 0px 0px;
+        .swiper-wrapper {
+          img {
+            height: 110px;
+            width: 130px;
+            object-fit: inherit;
+            padding-right: 25px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+.outline {
+  width: 26%;
+  display: flex;
+  direction: rtl;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  font-family: var(--font--family);
+  border: 1px #e8e8e9 solid;
+  height: 60vh;
+  transform: translate(-50%, -50%);
+  margin-top: 100px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  span {
+    svg {
+      margin-top: 32px;
+      width: 150px;
+      height: 40px;
+    }
+  }
+  .login__1 {
+    font-family: var(--font--family);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-flow: column;
+    h3 {
+      font-family: var(--font--family);
+      margin-bottom: 20px;
+    }
+    h6 {
+      font-size: 11px;
+      font-family: var(--font--family);
+      color: rgb(81, 81, 81);
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 11px;
+      font-family: var(--font--family);
+      color: rgb(81, 81, 81);
+      font-weight: normal;
+      margin-top: 20px;
+    }
+    span {
+      color: #008eb2;
+      font-family: var(--font--family);
+      font-size: 11px;
+    }
+    .login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 40px;
+      width: 100%;
+      font-family: var(--font--family);
+    }
+
+    .text__input {
+      width: 100%;
+      height: 43px;
+      border-radius: 10px;
+      border: 1px #008eb2 solid;
+    }
+
+    .button_digi {
+      width: 100%;
+      height: 43px;
+      background-color: #ef4056;
+      color: white;
+      font-family: var(--font--family);
+      font-weight: bold;
+      border-radius: 10px;
+      border: #ef4056 solid;
+    }
+
+    .text__input:focus {
+      border: 5px outset #ef4056;
+    }
+
+    #error-message {
+      margin-left: 200px;
+      font-size: 11px;
+      color: #ef4056;
+      display: none;
+      font-weight: lighter;
+      margin-bottom: -30px;
+      margin-top: -30px;
+    }
+
+    .text__input {
+      width: 100%;
+      height: 43px;
+      border-radius: 10px;
+      border: 1px #008eb2 solid;
+    }
+
+    .button_digi {
+      width: 100%;
+      height: 43px;
+      background-color: #ef4056;
+      color: white;
+      font-family: var(--font--family);
+      font-weight: bold;
+      border-radius: 10px;
+      border: #ef4056 solid;
+    }
+
+    .text__input:focus {
+      border: 5px outset #ef4056;
+    }
+    .khali {
+      width: 100%;
+      height: 40px;
+      #error-message {
+        margin-left: 300px;
+        font-size: 11px;
+        color: #ef4056;
+        display: none;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+.text__input {
+  width: 100%;
+  height: 43px;
+  border-radius: 10px;
+  border: 1px #008eb2 solid;
+}
+.button_digi {
+  width: 100%;
+  height: 43px;
+  background-color: #ef4056;
+  color: white;
+  font-family: var(--font--family);
+  font-weight: bold;
+  border-radius: 10px;
+  border: #ef4056 1px;
+}
+.text__input:focus {
+  border: 5px outset #ef4056;
+}

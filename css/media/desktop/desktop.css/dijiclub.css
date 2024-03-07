@@ -1,0 +1,107 @@
+.dijiclub {
+  width: 100%;
+  height: 89px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 23px 0px 23px 0px;
+  .dijiclub_center {
+    width: 86%;
+    height: inherit;
+    background-color: #037598;
+    border-radius: 16px;
+    padding: 13px 13px 13px 13px;
+    display: flex;
+    flex-flow: row wrap;
+    .blue_right {
+      width: 30%;
+      height: 56px;
+      background-color: #037598;
+      padding-left: 10px;
+      margin-left: 12px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: start;
+      svg {
+        width: 170px;
+        height: 32px;
+        margin-top: 15px;
+      }
+    }
+    .white_left_boss {
+      width: 63%;
+      height: 65px;
+      background-color: #037598;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin-right: 76px;
+
+      .image_1 {
+        width: 265px;
+        height: inherit;
+        background-color: white;
+        border-radius: 0px 8px 8px 0px;
+        display: flex;
+        justify-content: space-between;
+        span {
+          font-weight: lighter;
+          font-size: 12px;
+          margin: 9px 12px 0px 0px;
+          svg{
+            margin: 0px 0px -7px 4px;
+          }
+        }
+        img {
+          width: 160px;
+          height: inherit;
+          margin-right: 8px;
+        }
+      }
+      .image_2 {
+        width: 265px;
+        height: inherit;
+        background-color: white;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        span {
+          font-weight: lighter;
+          font-size: 12px;
+          margin: 9px 12px 0px 0px;
+          svg {
+            margin: 0px 0px -7px 4px;
+          }
+        }
+        img {
+          width: 160px;
+          height: 65px;
+          margin-right: 8px;
+        }
+      }
+      .image_3 {
+        width: 265px;
+        height: inherit;
+        background-color: white;
+        border-radius: 8px 0px 0px 8px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        img {
+          width: 160px;
+          height: 65px;
+          margin-right: 8px;
+        }
+        span {
+          font-weight: lighter;
+          font-size: 12px;
+          margin: 9px 12px 0px 0px;
+          svg {
+      
+            margin: 0px 0px -7px 4px;
+          }
+        }
+      }
+    }
+  }
+}

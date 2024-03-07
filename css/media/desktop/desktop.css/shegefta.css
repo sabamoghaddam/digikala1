@@ -1,0 +1,97 @@
+.shegefta {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  .shegefta-center {
+    width: 86%;
+    height: inherit;
+    background-color: #ef3a4f;
+    border-radius: 20px;
+    padding: 20px 0px 20px 3px;
+    .swiper-slide-1 {
+      div {
+        width: 176px;
+        height: 100%;
+        padding-right: 30px;
+        > svg {
+          width: 123px;
+          height: 74px;
+        }
+        img {
+          width: 125px;
+          height: 115px;
+          margin-bottom: 10px;
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          display: flex;
+          align-items: center;
+          font-family: var(--font-family);
+          font-size: 16px;
+          padding-right: 11px;
+          column-gap: 5px;
+          svg {
+            margin-bottom: 5px;
+            g {
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .item__amazing .item {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap !important;
+    .item__amazing_top {
+      display: block;
+      width: 100%;
+      height: auto;
+      img {
+        all: unset;
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .item__amazing_center {
+      display: block;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row-reverse wrap;
+      justify-content: space-between;
+      padding: 0px 20px 0px 20px;
+      h6 {
+        background-color: #d32f2f;
+        border-radius: 10px;
+        font-size: 13px;
+        color: white;
+        padding: 0 10px;
+      }
+    }
+    .item__amazing_bottom {
+      display: block;
+      height: auto;
+      width: 100%;
+      color: #c0c2c5;
+      font-size: 14px;
+      text-align: left;
+      text-decoration: line-through;
+      padding-left: 42px;
+      img {
+        width: 50px !important;
+        height: 30px;
+        all: unset;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+ 

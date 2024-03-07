@@ -1,0 +1,53 @@
+.footer_bottom_diji {
+    height: 237px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    .footer_bottom_diji_text {
+      height: 88.66px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 32px 0px 32px 0px;
+      border-top: 1px ridge #e0e0e2;
+      h6 {
+        font-weight: lighter;
+        color: #81858b;
+      }
+    }
+    .footer_bottom_digi2 {
+      width: 100%;
+      height: 74.5px;
+      display: flex;
+      flex-flow: row wrap;
+      background-color: #f0f0f1;
+
+      .part_footer_bottom {
+        width: 189.8px;
+        height: 75px;
+        border-left: 1px ridge #c8c8c8;
+        border-left: 1px ridge #c8c8c8;
+        display: flex;
+        justify-content: center;
+        padding: 30px 20px 0px 20px;
+      }
+    }
+    .part_footer_bottom2 {
+      width: 100%;
+      height: 74.5px;
+      display: flex;
+      flex-flow: row wrap;
+      background-color: #f0f0f1;
+      .part_footer_bottom {
+        width: 217px;
+        height: 75px;
+        border-left: 1px ridge #c8c8c8;
+        border-top: 1px ridge #c8c8c8;
+        display: flex;
+        justify-content: center;
+        padding: 30px 20px 0px 20px;
+      }
+    }
+  }
+  

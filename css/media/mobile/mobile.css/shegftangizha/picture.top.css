@@ -1,0 +1,7 @@
+.picture_top {
+  height: 67px;
+  width: 100%;
+  background-color: #ef3c51;
+  display: flex;
+  justify-content: center;
+}
